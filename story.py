@@ -1,0 +1,20 @@
+from tabnanny import verbose
+
+
+print('Welcome to the story game!')
+print ('You are in a dark room. There is a door to your right and left.')
+print ('Which one do you take?')
+print ('1. Left door')
+print('In\'m kidding')
+print ('Let\'s try again')
+print('Please enter the following:')
+adjective = input('Adjective: ')
+animal = input('Animal: ')
+myverb = input('Verb: ')
+exclamation = input('Exclamation: ')
+_my_verb = input('Verb: ')
+verb = input('Verb: ')
+print('')
+print('Now, let\'s read your story!')
+print('')
+print('The other day, I was really in trouble. It all started when I saw a very ' + adjective + ' ' + animal + ' ' + myverb + ' ' + 'down the hallway.' + ' ' + exclamation.capitalize() + '!' + ' ' + 'I yelled. But all I could think to do was to' + _my_verb + 'over and over. Miraculousely, that caused it to stop, but not before it tried to' + ' ' +  verb + ' ' +'right in front of my family')
