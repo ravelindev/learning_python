@@ -1,3 +1,3 @@
-# learning_python
-# learning_python
-# I am tryong  to learn python and this repo have all the code I have written. 
+# learning_python in 2022
+# I am trying  to learn python
+# This repo content all the code I have written so far.
