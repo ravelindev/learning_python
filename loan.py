@@ -30,8 +30,19 @@ print(" ")
 if loan_amount >= 5:
     if credit_score >= 7 and income >= 7:
         print("Yes, you are eligible for a loan.")
-    elif credit_score >= 7 or income >= 7:
-        print("Yes, you are eligible for a loan.")
-    else:
-        print("No, you are not eligible for a loan.")
-    print(" ")
+    if (credit_score >= 7 or income >= 7) and down_payment >= 5:
+        print("Yes, you are eligible for a loan!")
+#         else:
+#             print("No, you are not eligible for a loan.")
+# if loan_amount < 5:
+#     if credit_score < 4:
+#         print("No, you are not eligible for a loan.")
+#     if credit_score >= 4:
+#         if income >= 7 or down_payment >= 7:
+#             print("Yes, you are eligible for a loan!")
+#         else:
+#             if income >= 4 and down_payment >= 4:
+#                 print("Yes, you are not eligible for a loan.")
+#             else:
+#                 print("No, you are not eligible for a loan.")
+# print(" ")
