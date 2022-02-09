@@ -32,7 +32,7 @@ print("How large is your down payment?")
 down_payment = float(input("Enter your down payment: "))
 print(" ")
 # Now the conditions for the loan.
-should_loan = False # Ste the default value to false.
+should_loan = False # Set the default value to false.
 if loan_amount >= 5:
     if credit_score >= 7 and income >= 7:
         should_loan = True
