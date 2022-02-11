@@ -31,6 +31,7 @@ elif match == "flashlight":
         print("You look and your eyes are blinded by the trees. You are dead.")
     else:
         print("You have chosen an invalid option. You are dead.")
+print(" ")
 print("The End.")
 print(" ")
 
@@ -53,4 +54,3 @@ print("This game is not for resale.")
 print("Game created for educational purposes only.")
 print("This game is not for profit.")
 print("rudyravelin@gmail.com for more information.")
-
