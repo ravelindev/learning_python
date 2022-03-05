@@ -1,3 +1,5 @@
+import math # import the math module
+
 # This is a program that will ask a list of number and then print the sum of the numbers.
 # It will also calculate the average of the numbers.
 # And it will print the largest. 
@@ -10,7 +12,6 @@ print("And it will print the largest.")
 print()
 
 # This is an example of how to use list in python
-import math # import the math module
 
 numbers = [] # create an empty list
 
@@ -28,22 +29,29 @@ while new_number != 0: # loop until the user enters "0"
 
 print() # print a blank line
 print("The numbers are: ") # print a message
-
+sum = 0
 for number in numbers: # loop through the list
+    sum = sum + number # add the numbers in the list
     print(number) # print each number
 
 
-sum = 0 # create a variable to hold the sum
-average = 0 # create a variable to hold the average
-largest = 0 # create a variable to hold the largest
+#sum = 0 # create a variable to hold the sum
+#average = 0 # create a variable to hold the average
+#largest = 0 # create a variable to hold the largest
 
-sum = sum(number) # calculate the sum
-average = sum / len(new_number) # calculate the average
-largest = max(numbers) # find the largest number
+#sum = sum(number) # calculate the sum
+#average = sum / len(new_number) # calculate the average
+#largest = max(numbers) # find the largest number
 
 print()
-print("The sum is: {sum}") # print the sum
-print("The average is: {average}") # print the average
-print("The largest is: {largest}") # print the largest
+print("The sum is: " + str(sum)) # print the sum
+print()
+count = len(numbers) # count the number of numbers in the list
+average = sum / count # calculate the average
+print()
+print("The average is: " + str(average)) # print the average
+print()
+print("The largest number is: " + str(max(numbers))) # print the largest number
+print()
 
 
