@@ -48,7 +48,12 @@ print("The sum is: " + str(sum)) # print the sum
 print()
 count = len(numbers) # count the number of numbers in the list
 average = sum / count # calculate the average
+smallest = min(numbers) # find the smallest number
 print()
+print("The smallest number is: " + str(min(numbers))) # print the smallest number
+print("The sorted number is: " + str(sorted(numbers))) # print the sorted list
+sorted = sorted(numbers) # sort the list
+print() 
 print("The average is: " + str(average)) # print the average
 print()
 print("The largest number is: " + str(max(numbers))) # print the largest number
