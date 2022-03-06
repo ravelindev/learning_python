@@ -29,7 +29,7 @@ while new_number != 0: # loop until the user enters "0"
 
 print() # print a blank line
 print("The numbers are: ") # print a message
-sum = 0
+sum = 0 # create a variable to hold the sum
 for number in numbers: # loop through the list
     sum = sum + number # add the numbers in the list
     print(number) # print each number
