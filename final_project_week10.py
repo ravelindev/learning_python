@@ -1,4 +1,8 @@
-#SHOPPING CART PYTHON
+#*** Rudy Ravelin***
+#*** Python 3.6.4***
+#***Brigham Young University***
+#***Final Project Week 10***
+#***March 12, 2022***
 
 names = [] #create an empty list
 prices = [] #create an empty list
