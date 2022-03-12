@@ -20,16 +20,16 @@ while action != "5":
 
     if action == "1":
         add_item = input("What item would you like to add? ")
-        #add_price = float(input(f"What is the price of '{add_item.capitalize()}'? "))
+        add_price = float(input(f"What is the price of '{add_item.capitalize()}'? "))
         print(f"'{add_item.capitalize()}' has been added to the cart.")
         names.append(add_item)
-        #prices.append(add_price)
+        prices.append(add_price)
     
     elif action == "2":
         print("The contents of the shopping cart are:")
         for i in range(len(names)):
             add_item = names[i]
-            #add_price = prices[i]
+            add_price = prices[i]
             print(f"{i+1}. {add_item.capitalize()}")
     elif action == "5":
         print("Thank You. Goodbye\n") 

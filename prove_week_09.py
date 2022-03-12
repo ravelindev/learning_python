@@ -1,7 +1,7 @@
 # This si a program that will ask a user to enter some items in a cart and display the list of the cart
 
 names = [] #create an empty list
-#prices = [] #create an empty list
+prices = [] #create an empty list
 
 action = "" #create an empty string
 
@@ -19,16 +19,16 @@ while action != "5":    #while the action is not equal to 5
 
     if action == "1": #if the action is equal to 1
         add_item = input("What item would you like to add? ") #ask the user to enter an item
-        #add_price = float(input(f"What is the price of '{add_item.capitalize()}'? "))
+        add_price = float(input(f"What is the price of '{add_item.capitalize()}'? "))
         print(f"'{add_item.capitalize()}' has been added to the cart.") #print the following
         names.append(add_item)  #add the item to the list
-        #prices.append(add_price)
+        prices.append(add_price)
     
     elif action == "2": #if the action is equal to 2
         print("The contents of the shopping cart are:") #print the following
         for i in range(len(names)): #for each item in the list
             add_item = names[i] #create a variable that is equal to the item
-            #add_price = prices[i]
+            add_price = prices[i]
             print(f"{i+1}. {add_item.capitalize()}") #print the following
     elif action == "5": #if the action is equal to 5
         print("Thank You. Goodbye\n") #print the following
